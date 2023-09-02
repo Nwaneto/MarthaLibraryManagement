@@ -1,0 +1,7 @@
+{
+  "LoggerSettings": {
+    "AppName": "MarthaLibrary",
+    "WriteToFile": false,
+    "StructuredConsoleLogging": true
+  }
+}

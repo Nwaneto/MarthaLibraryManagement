@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>MarthaLibrary.Host</RootNamespace>
+        <AssemblyName>MarthaLibrary.Host</AssemblyName>
+    </PropertyGroup>
+    <PropertyGroup>
+        <ContainerImageName>dotnet-webapi</ContainerImageName>
+        <ContainerImageTags>1.0.0;latest</ContainerImageTags>
+        <PublishProfile>DefaultContainer</PublishProfile>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+        <PackageReference Include="Hangfire.Console.Extensions.Serilog" Version="1.0.2" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+        <PackageReference Include="Microsoft.NET.Build.Containers" Version="0.4.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Core\Application\Application.csproj" />
+        <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+        <ProjectReference Include="..\Migrators\Migrators.MSSQL\Migrators.MSSQL.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Update="Configurations\*.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Update="Files\full-stack-hero-logo.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Email Templates\*.html">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Remove="Controllers\Catalog\**" />
+        <Compile Remove="Controllers\Dashboard\**" />
+        <Compile Remove="Migrations\**" />
+        <Content Remove="Controllers\Catalog\**" />
+        <Content Remove="Controllers\Dashboard\**" />
+        <Content Remove="Logs\*" />
+        <Content Remove="Migrations\**" />
+        <None Include="Logs\*" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Email Templates\*.cshtml">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Remove="Controllers\Catalog\**" />
+      <EmbeddedResource Remove="Controllers\Dashboard\**" />
+      <EmbeddedResource Remove="Migrations\**" />
+      <None Remove="Controllers\Catalog\**" />
+      <None Remove="Controllers\Dashboard\**" />
+      <None Remove="Migrations\**" />
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Remove="Controllers\Library\AuthorsController.cs" />
+      <Compile Remove="Controllers\Library\CategoriesController.cs" />
+      <Compile Remove="Controllers\Library\CountriesController.cs" />
+      <Compile Remove="Controllers\Library\ReviewersController.cs" />
+      <Compile Remove="Controllers\Library\ReviewsController.cs" />
+      <Compile Remove="Dtos\AuthorDto.cs" />
+      <Compile Remove="Dtos\CategoryDto.cs" />
+      <Compile Remove="Dtos\CountryDto.cs" />
+      <Compile Remove="Dtos\ReviewDto.cs" />
+      <Compile Remove="Dtos\ReviewerDto.cs" />
+      <Compile Remove="Models\Author.cs" />
+      <Compile Remove="Models\BookAuthor.cs" />
+      <Compile Remove="Models\BookCategory.cs" />
+      <Compile Remove="Models\Category.cs" />
+      <Compile Remove="Models\Country.cs" />
+      <Compile Remove="Models\Review.cs" />
+      <Compile Remove="Models\Reviewer.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Databases\Host\" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Update="Roslynator.Analyzers" Version="4.2.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+{
+  "SwaggerSettings": {
+    "Enable": true,
+    "Title": "Martha Library API",
+    "Version": "1.0.0",
+    "Description": "API for the Martha Library Project by Lenkie.",
+    "ContactName": "Chidi Nwaneto",
+    "ContactEmail": "nwanetochidiebere@gmail.com",
+    "ContactUrl": "https://linkedin.com/in/nwaneto-chidiebere",
+    "License": true,
+    "LicenseName": "MIT License"
+  }
+}

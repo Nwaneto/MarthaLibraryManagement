@@ -1,0 +1,17 @@
+global using Ardalis.Specification;
+global using FluentValidation;
+global using MarthaLibrary.Application.Common.Events;
+global using MarthaLibrary.Application.Common.Exceptions;
+global using MarthaLibrary.Application.Common.FileStorage;
+global using MarthaLibrary.Application.Common.Interfaces;
+global using MarthaLibrary.Application.Common.Models;
+global using MarthaLibrary.Application.Common.Persistence;
+global using MarthaLibrary.Application.Common.Specification;
+global using MarthaLibrary.Application.Common.Validation;
+global using MarthaLibrary.Domain.Catalog;
+global using MarthaLibrary.Domain.Common;
+global using MarthaLibrary.Domain.Common.Contracts;
+global using MarthaLibrary.Shared.Notifications;
+global using MediatR;
+global using Microsoft.Extensions.Localization;
+global using Microsoft.Extensions.Logging;
