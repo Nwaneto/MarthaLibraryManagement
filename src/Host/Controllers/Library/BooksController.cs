@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 using MarthaLibrary.Application.Catalog.Books;
 using System.Net;
 using MarthaLibrary.Domain.Catalog;
+using Serilog;
+using static Org.BouncyCastle.Math.EC.ECCurve;
+using System.Reflection;
 
 namespace MarthaLibrary.Host.Controllers.Library
 {
@@ -159,6 +162,19 @@ namespace MarthaLibrary.Host.Controllers.Library
             return Ok(result);
         }
 
-        
+        /// <summary>
+        /// Used to add a book to the library
+        /// </summary>
+        /// <param name="book"></param>
+        /// <returns>The record of the newly added book</returns>
+        [HttpPost("AddBookToLibrary")]
+        [ProducesResponseType(200, Type = typeof(BookModel))]
+        public async Task<IActionResult> AddBook(AddBookRequestModel book)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest();
+            BookModel result = _bookService.AddBookToLibrary(book).Result;
+            return Ok(result);
+        }
     }
 }
