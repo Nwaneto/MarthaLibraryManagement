@@ -32,7 +32,7 @@ Before you begin, make sure you have the following prerequisites installed on yo
 
    - **SQL Server**:
      
-     If you're using SQL Server, open the `appsettings.json` file and update the connection string under the `"ConnectionStrings"` section:
+     If you're using SQL Server, open the `database.json` file in the Configurations Folder of the API and update the connection string under the `"ConnectionStrings"` section:
 
      ```json
      
@@ -42,12 +42,12 @@ Before you begin, make sure you have the following prerequisites installed on yo
 
 4. **Database Migration**
 
-   The API automatically does a migration on first run to create all authentication related tables and tasks for a smooth run:
-   Stored procedures for other data related tasks can be found in the Proc.sql file in the solution. Run the sql script against your database to enable the embeded functionalities
+   The API automatically does table creation and migration on first run to create all authentication related tables and tasks for a smooth run:
+   Stored procedures for other data related tasks can be found in the Proc.sql file in the solution. Run the sql script against your database to enable the embedded functionalities
 
 5. **Run the Application**
 
-   Start the Web API by running the following command:
+   Start the Web API from Visual Studio or by running the following command:
 
    ```shell
    dotnet run
