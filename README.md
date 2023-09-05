@@ -7,6 +7,7 @@ This guide will walk you through the steps to run the solution, an API project t
 Before you begin, make sure you have the following prerequisites installed on your machine:
 
 - [.NET 7 SDK](https://dotnet.microsoft.com/download/dotnet/7.0)
+- [Visual Studio](https://visualstudio.microsoft.com/) (recommended for the API Project)
 - [Visual Studio Code](https://code.visualstudio.com/) (recommended for the Frontend Project)
 - [SQL Server Management Studio (LocalDb)]
 
