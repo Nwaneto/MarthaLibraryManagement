@@ -1,4 +1,4 @@
-# Running the Martha Library Application - a .NET 6 Web API with Entity Framework Core and an Angular Frontend 
+# Running the Martha Library Application - a .NET 7 Web API with Entity Framework Core/Dapper and an Angular Frontend 
 
 This guide will walk you through the steps to run the solution, an API project that utilizes Entity Framework Core and Dapper for data access. By following these steps, you will be able to set up and run the project on your local machine.
 
