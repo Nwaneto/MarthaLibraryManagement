@@ -55,7 +55,7 @@ Before you begin, make sure you have the following prerequisites installed on yo
    ```
 
    The API will be accessible at `https://localhost:5001` by default as shown in the image below.
-   ![Screenshot] (../Capture23.PNG)
+   ![Screenshot] (./Capture23.PNG)
 
 
 7. **Testing the API**
