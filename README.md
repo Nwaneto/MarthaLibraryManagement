@@ -61,26 +61,19 @@ Before you begin, make sure you have the following prerequisites installed on yo
 6. **Testing the API**
 
    The api has a swagger ui which is enough for testing, but you can use tools like [Postman](https://www.postman.com/) or [curl](https://curl.se/) to test the API endpoints.
-   ![Screenshot]([URL_OF_YOUR_IMAGE](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture22.PNG))
+   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture22.PNG)
 
 7. **Testing the frontend**
-   
-   Certainly! Here's a sample `README.md` content that provides instructions on how to run an Angular application:
-
----
-
-# Running an Angular Application
-
    Before you begin, make sure you have the following prerequisites installed on your machine:
 
-   - [Node.js](https://nodejs.org/) (LTS version recommended)
+   - [Node.js](https://nodejs.org/) (LTS version recommended.)
    - [Angular CLI](https://angular.io/cli) (installed globally)
 
-      Start the Solution in Visual Studio using the multiple Startup Project Option with the Angular project starting after the API:
+      Start the Solution in Visual Studio using the multiple Startup Project option, with the Angular project starting after the API:
       Web browser should automatically open on `http://localhost:55601/` to view and interact with the Angular application.
 
-   ![Screenshot]([URL_OF_YOUR_IMAGE](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture25.PNG))
-   ![Screenshot]([URL_OF_YOUR_IMAGE](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture24.PNG))
+   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture25.PNG)
+   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture24.PNG)
 
 ## API Endpoints
 
