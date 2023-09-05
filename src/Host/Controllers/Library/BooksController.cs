@@ -1,5 +1,4 @@
-﻿using MarthaLibrary.Host.Models;
-using MarthaLibrary.Host.Dtos;
+﻿using MarthaLibrary.Host.Dtos;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

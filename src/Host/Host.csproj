@@ -70,13 +70,6 @@
       <Compile Remove="Dtos\CountryDto.cs" />
       <Compile Remove="Dtos\ReviewDto.cs" />
       <Compile Remove="Dtos\ReviewerDto.cs" />
-      <Compile Remove="Models\Author.cs" />
-      <Compile Remove="Models\BookAuthor.cs" />
-      <Compile Remove="Models\BookCategory.cs" />
-      <Compile Remove="Models\Category.cs" />
-      <Compile Remove="Models\Country.cs" />
-      <Compile Remove="Models\Review.cs" />
-      <Compile Remove="Models\Reviewer.cs" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Databases\Host\" />
