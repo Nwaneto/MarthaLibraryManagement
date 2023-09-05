@@ -43,7 +43,7 @@ Before you begin, make sure you have the following prerequisites installed on yo
 4. **Database Migration**
 
    The API automatically does table creation and migration on first run to create all authentication related tables and tasks for a smooth run:
-   Stored procedures for other data related tasks can be found in the Proc.sql file in the solution. Run the sql script against your database to enable the embedded functionalities
+   Stored procedures for other data related tasks can be found in the Proc.sql file within the SQL Scripts folder in the Host Application. Run the sql script against your database to enable the embedded functionalities
 
 5. **Run the Application**
 
