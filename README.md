@@ -55,15 +55,16 @@ Before you begin, make sure you have the following prerequisites installed on yo
    ```
 
    The API will be accessible at `https://localhost:5001` by default as shown in the image below.
-   ![Screenshot]([URL_OF_YOUR_IMAGE](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture23.PNG))
+   ![Screenshot](URL_OF_YOUR_IMAGE)
+   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture23.PNG)
 
 
-6. **Testing the API**
+7. **Testing the API**
 
    The api has a swagger ui which is enough for testing, but you can use tools like [Postman](https://www.postman.com/) or [curl](https://curl.se/) to test the API endpoints.
    ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture22.PNG)
 
-7. **Testing the frontend**
+8. **Testing the frontend**
    Before you begin, make sure you have the following prerequisites installed on your machine:
 
    - [Node.js](https://nodejs.org/) (LTS version recommended.)
