@@ -55,14 +55,13 @@ Before you begin, make sure you have the following prerequisites installed on yo
    ```
 
    The API will be accessible at `https://localhost:5001` by default as shown in the image below.
-   ![Screenshot](URL_OF_YOUR_IMAGE)
-   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture23.PNG)
+   ![Screenshot] (https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture23.PNG?raw=true)
 
 
 7. **Testing the API**
 
    The api has a swagger ui which is enough for testing, but you can use tools like [Postman](https://www.postman.com/) or [curl](https://curl.se/) to test the API endpoints.
-   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture22.PNG)
+   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture22.PNG?raw=true)
 
 8. **Testing the frontend**
    Before you begin, make sure you have the following prerequisites installed on your machine:
@@ -73,8 +72,8 @@ Before you begin, make sure you have the following prerequisites installed on yo
       Start the Solution in Visual Studio using the multiple Startup Project option, with the Angular project starting after the API:
       Web browser should automatically open on `http://localhost:55601/` to view and interact with the Angular application.
 
-   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture25.PNG)
-   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture24.PNG)
+   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture25.PNG?raw=true)
+   ![Screenshot](https://github.com/Nwaneto/MarthaLibraryManagement/blob/main/Capture24.PNG?raw=true)
 
 ## API Endpoints
 
